@@ -1,0 +1,23 @@
+.login {
+    & h1 {
+        text-align: center;
+        transition-duration: 1s;
+		transition-timing-function: ease-in-put;
+    }
+
+    & form {
+        max-width: 400px;
+        margin: auto;
+        display: block;
+        position: relative;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        padding: 25px 35px;
+        text-align: left;
+
+        & input, label, .button {
+            max-width: 400px;
+        }
+    }
+}
